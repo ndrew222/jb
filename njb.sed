@@ -78,3 +78,8 @@ s/^2Jo/2 John\t2Jo\t69/
 s/^3Jo/3 John\t3Jo\t70/
 s/^Jud/Jude\tJud\t71/
 s/^Rev/Revelations\tRev\t72/
+
+# Remove double quotes as no longer needed for tsv
+
+s/\t"/\t/
+s/"$//
