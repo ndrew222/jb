@@ -1,72 +1,73 @@
-Genesis	Gen
-Exodus	Exo
-Leviticus	Lev
-Numbers	Num
-Deuteronomy	Deu
-Joshua	Jos
-Judges	Jdg
-Ruth	Rut
-1 Samuel	1Sa
-2 Samuel	2Sa
-1 Kings	1Ki
-2 Kings	2Ki
-1 Chronicles	1Ch
-2 Chronicles	2Ch
-Ezra	Ezr
-Nehemiah	Neh
-Judith	Jdt
-Esther	Est
-Tobit	Tob
-1 Maccabees	1Ma
-2 Maccabees	2Ma
-Job	Job
-Psalms	Psa
-Proverbs	Pro
-Song of Solomon	Sol
-Wisdom	Wis
-Sirach	Sir
-Isaiah	Isa
-Jeremiah	Jer
-Lamentations	Lam
-Baruch	Bar
-Ezekiel	Eze
-Daniel	Dan
-Hosea	Hos
-Joel	Joe
-Amos	Amo
-Obadiah	Oba
-Jonah	Jon
-Micah	Mic
-Nahum	Nah
-Habakkuk	Hab
-Zephaniah	Zep
-Haggai	Hag
-Zechariah	Zec
-Malachi	Mal
-Matthew	Mat
-Mark	Mar
-Luke	Luk
-John	Joh
-Acts	Act
-Romans	Rom
-1 Corinthians	1Co
-2 Corinthians	2Co
-Galatians	Gal
-Ephesians	Eph
-Philippians	Phi
-Colossians	Col
-1 Thessalonians	1Th
-2 Thessalonians	2Th
-1 Timothy	1Ti
-2 Timothy	2Ti
-Titus	Tit
-Philemon	Phm
-Hebrews	Heb
-James	Jam
-1 Peter	1Pe
-2 Peter	1Pe
-1 John	1Jo
-2 John	2Jo
-3 John	3Jo
-Jude	Jud
-Revelations	Rev
+Genesis	Gen	1
+Exodus	Exo	2
+Leviticus	Lev	3
+Numbers	Num	4
+Deuteronomy	Deu	5
+Joshua	Jos	6
+Judges	Jdg	7
+Ruth	Rut	8
+1 Samuel	1Sa	9
+2 Samuel	2Sa	10
+1 Kings	1Ki	11
+2 Kings	2Ki	12
+1 Chronicles	1Ch	13
+2 Chronicles	2Ch	14
+Ezra	Ezr	15
+Nehemiah	Neh	16
+Judith	Jdt	17
+Esther	Est	18
+Tobit	Tob	19
+1 Maccabees	1Ma	20
+2 Maccabees	2Ma	21
+Job	Job	22
+Psalms	Psa	23
+Proverbs	Pro	24
+Ecclesiastes	Ecc	25
+Song of Solomon	Sol	26
+Wisdom	Wis	27
+Sirach	Sir	28
+Isaiah	Isa	29
+Jeremiah	Jer	30
+Lamentations	Lam	31
+Baruch	Bar	32
+Ezekiel	Eze	33
+Daniel	Dan	34
+Hosea	Hos	35
+Joel	Joe	36
+Amos	Amo	37
+Obadiah	Oba	38
+Jonah	Jon	39
+Micah	Mic	40
+Nahum	Nah	41
+Habakkuk	Hab	42
+Zephaniah	Zep	43
+Haggai	Hag	44
+Zechariah	Zec	45
+Malachi	Mal	46
+Matthew	Mat	47
+Mark	Mar	48
+Luke	Luk	49
+John	Joh	50
+Acts	Act	51
+Romans	Rom	52
+1 Corinthians	1Co	53
+2 Corinthians	2Co	54
+Galatians	Gal	55
+Ephesians	Eph	56
+Philippians	Phi	57
+Colossians	Col	58
+1 Thessalonians	1Th	59
+2 Thessalonians	2Th	60
+1 Timothy	1Ti	61
+2 Timothy	2Ti	62
+Titus	Tit	63
+Philemon	Phm	64
+Hebrews	Heb	65
+James	Jam	66
+1 Peter	1Pe	67
+2 Peter	1Pe	68
+1 John	1Jo	69
+2 John	2Jo	70
+3 John	3Jo	71
+Jude	Jud	72
+Revelations	Rev	73
