@@ -1,6 +1,5 @@
 #!/bin/sh
-# vul: Read the Word of God in Latin from your terminal
-# License: Public domain
+# njb: Read the Word of God from your terminal
 
 SELF="$0"
 
@@ -59,7 +58,7 @@ while [ $# -gt 0 ]; do
 		break
 	elif [ "$1" = "-l" ]; then
 		# List all book names with their abbreviations
-		get_data vul.tsv | awk -v cmd=list "$(get_data vul.awk)"
+		get_data njb.tsv | awk -v cmd=list "$(get_data njb.awk)"
 		exit
 	elif [ "$1" = "-W" ]; then
 		export KJV_NOLINEWRAP=1
@@ -83,13 +82,13 @@ if [ $# -eq 0 ]; then
 
 	# Interactive mode
 	while true; do
-		printf "vul> "
+		printf "njb> "
 		if ! read -r ref; then
 			break
 		fi
-		get_data vul.tsv | awk -v cmd=ref -v ref="$ref" "$(get_data vul.awk)" | ${PAGER}
+		get_data njb.tsv | awk -v cmd=ref -v ref="$ref" "$(get_data njb.awk)" | ${PAGER}
 	done
 	exit 0
 fi
 
-get_data vul.tsv 2>/dev/null | awk -v cmd=ref -v ref="$*" "$(get_data vul.awk)" 2>/dev/null | ${PAGER}
+get_data njb.tsv 2>/dev/null | awk -v cmd=ref -v ref="$*" "$(get_data njb.awk)" 2>/dev/null | ${PAGER}

@@ -1,25 +1,25 @@
 
 PREFIX = /usr/local
 
-vul: vul.sh vul.awk vul.tsv
-	cat vul.sh > $@
+njb: njb.sh njb.awk njb.tsv
+	cat njb.sh > $@
 	echo 'exit 0' >> $@
 	echo "#EOF" >> $@
-	tar czf - vul.awk vul.tsv >> $@
+	tar czf - njb.awk njb.tsv >> $@
 	chmod +x $@
 
-test: vul.sh
-	shellcheck -s sh vul.sh
+test: njb.sh
+	shellcheck -s sh njb.sh
 
 clean:
-	rm -f vul
+	rm -f njb
 
-install: vul
+install: njb
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
-	cp -f vul $(DESTDIR)$(PREFIX)/bin
-	chmod 755 $(DESTDIR)$(PREFIX)/bin/vul
+	cp -f njb $(DESTDIR)$(PREFIX)/bin
+	chmod 755 $(DESTDIR)$(PREFIX)/bin/njb
 
 uninstall:
-	rm -f $(DESTDIR)$(PREFIX)/bin/vul
+	rm -f $(DESTDIR)$(PREFIX)/bin/njb
 
 .PHONY: test clean install uninstall
