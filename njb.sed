@@ -1,5 +1,8 @@
 #!/usr/bin/env -S sed -f
 
+# dos2unix
+s/\r$//
+
 # Replace the first three commas
 s/,/\t/1
 s/,/\t/1
