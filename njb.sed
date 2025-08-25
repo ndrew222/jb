@@ -1,5 +1,7 @@
 #!/usr/bin/env -S sed -f
 
+# delete the first line (headings from the csv)
+1d
 # dos2unix
 s/\r$//
 
@@ -76,7 +78,7 @@ s/^Phm/Philemon\tPhm\t64/
 s/^Heb/Hebrews\tHeb\t65/
 s/^Jam/James\tJam\t66/
 s/^1Pe/1 Peter\t1Pe\t67/
-s/^1Pe/2 Peter\t2Pe\t68/
+s/^2Pe/2 Peter\t2Pe\t68/
 s/^1Jo/1 John\t1Jo\t69/
 s/^2Jo/2 John\t2Jo\t70/
 s/^3Jo/3 John\t3Jo\t71/
