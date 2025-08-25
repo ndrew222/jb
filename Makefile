@@ -8,6 +8,9 @@ njb: njb.sh njb.awk njb.tsv
 	tar czf - njb.awk njb.tsv >> $@
 	chmod +x $@
 
+njb.tsv: New\ Jerusalem\ Bible.csv
+	./njb.sed New\ Jerusalem\ Bible.csv > njb.tsv
+
 test: njb.sh
 	shellcheck -s sh njb.sh
 
